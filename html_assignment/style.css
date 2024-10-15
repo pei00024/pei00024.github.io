@@ -1,0 +1,49 @@
+/* 修改字体和字体大小 */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* 页眉和页脚的背景色 */
+header, footer {
+    background-color: #ff6700; /* 你可以选择自己喜欢的颜色 */
+    padding: 20px;
+    text-align: center;
+}
+
+/* 为主标题添加site-title并设置颜色 */
+.site-title {
+    color: #ff6700; /* 设置主标题的颜色，可以根据需要更改 */
+}
+
+/* 添加my-image的id并为图像添加阴影 */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+/* 将爱好列表的项目符号改为方块 */
+ul {
+    list-style-type: square;
+}
+
+/* 使用nth-child选择器为爱好列表的奇数项添加背景 */
+ul li:nth-child(odd) {
+    background-color: #ff6700; 
+}
+
+/* 导航样式 */
+nav ul {
+    list-style-type: none; /* 删除导航的项目符号 */
+}
+
+nav a {
+    text-decoration: none; /* 删除链接的下划线 */
+    background-color: #ff6700;
+    border: 1px solid #ff6700;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #ff6700; 
+}
