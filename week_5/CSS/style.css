@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+/* this is a comment */
+header{
+    background-color: #ff6700;
+    color:white;
+    padding: 0.5rem 2rem;
+    margin: 2rem 1rem;
+}
+h1,h2,h3{
+    text-decoration: underline;
+    color: white;
+}
+p{
+    font-size: 1.2rem;
+    color: white;
+    margin: 1rem 0;
+}
+div p{
+    font-size: 0.8rem;
+}
+.notes{
+    border: 2px solid yellow;
+}
+.highlight{
+    background-color: red;
+}
+#goals{
+    font-weight: 1000;
+}
+li:nth-child(2n+1){
+    background-color: red;
+}
+a{
+    display: block;
+}
+a:link {
+    color: white;
+}
+a:hover {
+    color: yellow;
+}
+a:visited {
+    color: red;
+}
+span{
+    color: blueviolet;
+}
