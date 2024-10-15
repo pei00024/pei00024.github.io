@@ -4,9 +4,9 @@ body {
     font-size: 18px;
 }
 
-/* 页眉和页脚的背景色 */
+/* 页眉和页脚 */
 header, footer {
-    background-color: #ff6700; /* 你可以选择自己喜欢的颜色 */
+    background-color: #ff6700; 
     padding: 20px;
     text-align: center;
 }
