@@ -1,3 +1,15 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    background-color: #f4f4f4;
+    font-family: "Oswald", sans-serif;
+}
+.container{
+    max-width: 90vw;
+    margin: 0 auto;
+}
 header{
     background-color:#000;
     color:#FFF;
@@ -6,8 +18,74 @@ header{
     background-image: url("../images/bread.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    font-weight: 800;
+}
+
+h1{
+    font-size: 32px;
+}
+
+nav ul{
+    list-style: none;
+    padding:0 7rem 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 0.5rem;
+}
+nav ul li a{
+    color: #FFFFFF;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 nav ul li a{
     color:#fff
+}
+
+#breakfast{
+    max-width: 90%;
+
+}
+
+section{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 400;
+
+}
+
+aside{
+    background-color: aquamarine;
+    padding: 0.8rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    padding: 0.8rem 0;
+    margin-top: 1rem;
+    border-radius: 20px;
 }
